@@ -1,0 +1,18 @@
+# Maven build
+target/
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Optional: ignore local exports
+FoodOrdering.postman_collection.json
+Local-Microservices.postman_environment.json
+*.mpp
