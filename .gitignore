@@ -1,0 +1,13 @@
+# IDE
+**/.idea/
+**/*.iml
+
+# Maven build
+**/target/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
