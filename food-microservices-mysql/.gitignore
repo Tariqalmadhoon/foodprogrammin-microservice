@@ -1,0 +1,13 @@
+# ===== IDE =====
+.idea/
+*.iml
+
+# ===== Build outputs =====
+target/
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
