@@ -1,0 +1,17 @@
+# استثناءات عامة
+.git
+.gitignore
+.idea
+.vscode
+*.iml
+node_modules
+.DS_Store
+*.log
+*.swp
+*.tmp
+
+# استثني كل target
+target/*
+
+# لكن اسمح بنسخ الجار الناتج
+!target/*.jar

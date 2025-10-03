@@ -14,5 +14,10 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,mappings
 logging.level.org.hibernate.SQL: debug
 logging.level.org.hibernate.orm.jdbc.bind: trace

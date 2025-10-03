@@ -1,18 +1,33 @@
 # Maven build
-target/
+**/target/
 
-# IDE
+# IntelliJ IDEA
 .idea/
 *.iml
 
-# OS
+# VS Code
+.vscode/
+
+# OS files
 .DS_Store
 Thumbs.db
 
 # Logs
 *.log
+logs/
 
-# Optional: ignore local exports
+# Java / Maven
+*.class
+*.jar
+*.war
+*.ear
+
+# Docker
+*.tar
+.env
+.env.local
+
+# Optional: ignore local exports (Postman, MS Project, etc.)
 FoodOrdering.postman_collection.json
 Local-Microservices.postman_environment.json
 *.mpp
